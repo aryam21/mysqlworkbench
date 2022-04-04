@@ -15,10 +15,9 @@ deploy:
     replicas: 1
     port:
     - 3000
-    - 4822
 
 properties:
     USER_PASSWORD: 
        vault: USER_PASSWORD
 
-    revision: 2
+    revision: 3
